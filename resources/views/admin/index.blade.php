@@ -17,7 +17,7 @@
                     </div>
                     @endif
 
-                    {{ __('You are logged in!') }}
+                    Questa è la dashboard dell'admin.
                 </div>
             </div>
         </div>
