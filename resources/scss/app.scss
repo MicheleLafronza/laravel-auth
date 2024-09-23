@@ -1,1 +1,4 @@
-@import '~bootstrap/scss/bootstrap'
+@use 'admin/admin.scss' as *; 
+
+@import '~bootstrap/scss/bootstrap';
+
