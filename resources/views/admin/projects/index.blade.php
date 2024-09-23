@@ -2,6 +2,10 @@
 
 @section('content')
 
+@if (session('deleted'))
+ <div class="alert alert-success" role="alert"> {{ session('deleted') }}</div>
+@endif
+
 
     <div
         class="table-responsive m-5"
