@@ -11,7 +11,7 @@
             </div>
         @endif
 
-    INDEX ADMIN
+        <h2 class="text-center">Benvenuto nella pagina admin del tuo portfolio</h2>
     </div>
 </div>
 @endsection

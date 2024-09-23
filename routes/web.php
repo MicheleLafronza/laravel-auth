@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Admin\DashboardController;
+use App\Http\Controllers\Admin\ProjectController;
 use App\Http\Controllers\Guest\PageController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
@@ -25,6 +26,7 @@ Route::middleware(['auth', 'verified'])
         
         // qui vanno tutte le rotte admin
         Route::get('/', [DashboardController::class, 'index'])->name('home');
+        Route::resource('project', ProjectController::class);
     });
 
 Route::middleware('auth')->group(function () {
