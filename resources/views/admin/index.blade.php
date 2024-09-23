@@ -1,9 +1,10 @@
-@extends('layouts.admin')
+@extends('layouts.app')
 
 @section('content')
 <div>
 
     <div>
+        
         @if (session('status'))
             <div class="alert alert-success" role="alert">
                 {{ session('status') }}
